@@ -1,14 +1,9 @@
-# CIS25-Fall2025
-## Week 6 - Module 7: Pointers and Memory
-This program demonstrates:
-- A struct `Item` with `name` and `id`
-- A dynamic array of 100 `Item` objects using `new`
-- Filling the array with sorted ids from 1 to 100
-- Binary search to find an item by its id
-- Releasing memory using `delete[]`
-
-To compile:
-g++ Week6/week6_module7_inventory.cpp -o week6_inventory
-
-To run:
-./week6_inventory
+Week 7 – Pointers, Dynamic Memory, and Binary Search
+This program demonstrates how to work with pointers and dynamic memory in C++.
+The assignment includes:
+Creating a struct named Item with a name and id
+Dynamically allocating an array of 100 Item objects using new
+Filling the array with sample inventory data sorted alphabetically
+Implementing a binary search function to find an item by its ID
+Asking the user to enter an ID and displaying the matching result
+Releasing memory using delete[]
